@@ -5,7 +5,7 @@ const server = http.createServer(app);
 const socket = require("socket.io");
 const io = socket(server,{
      origin:"*"
-                 );
+});
 
 const users = {};
 
