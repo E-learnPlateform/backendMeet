@@ -1,4 +1,3 @@
-#index.js
 const app = require("express")();
 const server = require("http").createServer(app);
 const cors = require("cors");
@@ -10,7 +9,7 @@ const io = require("socket.io")(server, {
 });
 
 app.use(cors());
-const PORT = 3002;
+const PORT = 3001;
 app.get('/', (req, res) => {
         res.send('Hello World');
 });
