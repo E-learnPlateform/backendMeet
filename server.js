@@ -10,7 +10,7 @@ const io = require("socket.io")(server, {
 });
 
 app.use(cors());
-const PORT = 3001;
+const PORT = 3002;
 app.get('/', (req, res) => {
         res.send('Hello World');
 });
